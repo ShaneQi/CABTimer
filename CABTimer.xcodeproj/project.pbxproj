@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0667BE1D64CAA3007EF664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0667BD1D64CAA3007EF664 /* AppDelegate.swift */; };
+		BF0667C01D64CAA3007EF664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0667BF1D64CAA3007EF664 /* ViewController.swift */; };
+		BF0667C31D64CAA3007EF664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0667C11D64CAA3007EF664 /* Main.storyboard */; };
+		BF0667C51D64CAA3007EF664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0667C41D64CAA3007EF664 /* Assets.xcassets */; };
+		BF0667C81D64CAA3007EF664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0667C61D64CAA3007EF664 /* LaunchScreen.storyboard */; };
+		BF0667D21D64CAC9007EF664 /* CABTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0667D01D64CAC9007EF664 /* CABTimer.swift */; };
+		BF0667D31D64CAC9007EF664 /* CABTimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0667D11D64CAC9007EF664 /* CABTimerCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF0667BA1D64CAA3007EF664 /* CABTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CABTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0667BD1D64CAA3007EF664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF0667BF1D64CAA3007EF664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0667C21D64CAA3007EF664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0667C41D64CAA3007EF664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0667C71D64CAA3007EF664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF0667C91D64CAA3007EF664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0667D01D64CAC9007EF664 /* CABTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CABTimer.swift; sourceTree = "<group>"; };
+		BF0667D11D64CAC9007EF664 /* CABTimerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CABTimerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0667B71D64CAA3007EF664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0667B11D64CAA3007EF664 = {
+			isa = PBXGroup;
+			children = (
+				BF0667BC1D64CAA3007EF664 /* CABTimer */,
+				BF0667BB1D64CAA3007EF664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0667BB1D64CAA3007EF664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0667BA1D64CAA3007EF664 /* CABTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0667BC1D64CAA3007EF664 /* CABTimer */ = {
+			isa = PBXGroup;
+			children = (
+				BF0667CF1D64CAAC007EF664 /* Support */,
+				BF0667BF1D64CAA3007EF664 /* ViewController.swift */,
+				BF0667D01D64CAC9007EF664 /* CABTimer.swift */,
+				BF0667D11D64CAC9007EF664 /* CABTimerCell.swift */,
+			);
+			path = CABTimer;
+			sourceTree = "<group>";
+		};
+		BF0667CF1D64CAAC007EF664 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BF0667BD1D64CAA3007EF664 /* AppDelegate.swift */,
+				BF0667C11D64CAA3007EF664 /* Main.storyboard */,
+				BF0667C41D64CAA3007EF664 /* Assets.xcassets */,
+				BF0667C61D64CAA3007EF664 /* LaunchScreen.storyboard */,
+				BF0667C91D64CAA3007EF664 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0667B91D64CAA3007EF664 /* CABTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0667CC1D64CAA3007EF664 /* Build configuration list for PBXNativeTarget "CABTimer" */;
+			buildPhases = (
+				BF0667B61D64CAA3007EF664 /* Sources */,
+				BF0667B71D64CAA3007EF664 /* Frameworks */,
+				BF0667B81D64CAA3007EF664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CABTimer;
+			productName = CABTimer;
+			productReference = BF0667BA1D64CAA3007EF664 /* CABTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0667B21D64CAA3007EF664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shane Qi";
+				TargetAttributes = {
+					BF0667B91D64CAA3007EF664 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BF0667B51D64CAA3007EF664 /* Build configuration list for PBXProject "CABTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0667B11D64CAA3007EF664;
+			productRefGroup = BF0667BB1D64CAA3007EF664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0667B91D64CAA3007EF664 /* CABTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0667B81D64CAA3007EF664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0667C81D64CAA3007EF664 /* LaunchScreen.storyboard in Resources */,
+				BF0667C51D64CAA3007EF664 /* Assets.xcassets in Resources */,
+				BF0667C31D64CAA3007EF664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0667B61D64CAA3007EF664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0667D31D64CAC9007EF664 /* CABTimerCell.swift in Sources */,
+				BF0667D21D64CAC9007EF664 /* CABTimer.swift in Sources */,
+				BF0667C01D64CAA3007EF664 /* ViewController.swift in Sources */,
+				BF0667BE1D64CAA3007EF664 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF0667C11D64CAA3007EF664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0667C21D64CAA3007EF664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0667C61D64CAA3007EF664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0667C71D64CAA3007EF664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF0667CA1D64CAA3007EF664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF0667CB1D64CAA3007EF664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF0667CD1D64CAA3007EF664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CABTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.shaneqi.CABTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF0667CE1D64CAA3007EF664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CABTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.shaneqi.CABTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0667B51D64CAA3007EF664 /* Build configuration list for PBXProject "CABTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0667CA1D64CAA3007EF664 /* Debug */,
+				BF0667CB1D64CAA3007EF664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0667CC1D64CAA3007EF664 /* Build configuration list for PBXNativeTarget "CABTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0667CD1D64CAA3007EF664 /* Debug */,
+				BF0667CE1D64CAA3007EF664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0667B21D64CAA3007EF664 /* Project object */;
+}
